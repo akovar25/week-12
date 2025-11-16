@@ -13,6 +13,11 @@ def update_board(current_board):
     current_board : numpy.ndarray
         Binary array (0 = dead, 1 = alive).
     
+    Raises
+    ------
+    ValueError
+        If `current_board` is not a 2D numpy array.
+    
     Returns
     -------
     updated_board : numpy.ndarray
